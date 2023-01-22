@@ -1,0 +1,438 @@
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #09f 50%, #6c3 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+#a{
+  flex: 1;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.card-header{
+    display: flex;
+  align-items: center;
+}
+#headertext{
+  font-size: 30px;
+  flex: 1;
+}
+.card{
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+}
+#text{
+  text-align: center;
+}
+.imgtext{
+  
+}
+#copyright{
+  background-color:#aaa;
+  color:#000;
+  text-align: right;
+}
+p{
+  color:#334;
+}
+#back{
+   background-attachment: fixed;
+}
+.basic{
+  color: #ddd;
+  font-size: 20px;
+  flex: 1;
+}
+#wrapper a{
+  text-decoration: none;
+}
+#global-navi {
+    background:#345;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
+  z-index: 100;
+     
+}
+#wrapper nav ul li{
+display:inline-block;
+font-size: 35px;
+}
+#wrapper nav ul li a {
+color: #ddd;
+  font-size: 20px;
+}
+@media screen and (max-width: 695px) {
+  #headertext{
+  font-size: 20px;
+}
+
+}
+/*スマホ画面でハンバーガーメニューの形にする*/
+@media screen and (max-width: 600px) {
+  #headertext{
+  font-size: 18px;
+}
+  .basic{
+    display: none;
+    }
+  #wrapper nav {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    background:#333;
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 2
+}
+#wrapper nav ul li {
+    display:block;
+    padding: 20px 28px
+}
+ 
+#wrapper nav ul li a {
+    text-decoration: none;
+    color: #ddd
+}
+ 
+#wrapper .btn-gnavi {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 24px;
+    z-index: 3;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
+}
+ 
+#wrapper .btn-gnavi span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #666;
+    border-radius: 10px;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
+}
+ 
+#wrapper .btn-gnavi span:nth-child(1) {
+    top: 0;
+}
+ 
+#wrapper .btn-gnavi span:nth-child(2) {
+    top: 10px
+}
+ 
+#wrapper .btn-gnavi span:nth-child(3) {
+    top: 20px
+}
+ 
+#wrapper .btn-gnavi.open {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+ 
+#wrapper .btn-gnavi.open span {
+    background: #666
+}
+ 
+#wrapper .btn-gnavi.open span {
+    width: 24px;
+}
+#wrapper .contents section p {
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 6px #666
+}
+ 
+#wrapper .contents section:nth-child(odd) p {
+    left: 10%
+}
+ 
+#wrapper .contents section:nth-child(even) p {
+    right: 10%
+}
+}
+.content{
+  　margin:0;
+    padding-top: 80px;
+}
+.content p{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 535px) {
+  #head.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #09f 50%, #6c3 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+#a{
+  flex: 1;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.card-header{
+    display: flex;
+  align-items: center;
+}
+#headertext{
+  font-size: 30px;
+  flex: 1;
+}
+.card{
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+}
+#text{
+  text-align: center;
+}
+.imgtext{
+  
+}
+#copyright{
+  background-color:#aaa;
+  color:#000;
+  text-align: right;
+}
+p{
+  color:#334;
+}
+#back{
+   background-attachment: fixed;
+}
+.basic{
+  color: #ddd;
+  font-size: 20px;
+  flex: 1;
+}
+#wrapper a{
+  text-decoration: none;
+}
+#global-navi {
+    background:#345;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
+  z-index: 100;
+     
+}
+#wrapper nav ul li{
+display:inline-block;
+font-size: 35px;
+}
+#wrapper nav ul li a {
+color: #ddd;
+  font-size: 20px;
+}
+@media screen and (max-width: 695px) {
+  #headertext{
+  font-size: 20px;
+}
+
+}
+/*スマホ画面でハンバーガーメニューの形にする*/
+@media screen and (max-width: 600px) {
+  #headertext{
+  font-size: 18px;
+}
+  .basic{
+    display: none;
+    }
+  #wrapper nav {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    background:#333;
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 2
+}
+#wrapper nav ul li {
+    display:block;
+    padding: 20px 28px
+}
+ 
+#wrapper nav ul li a {
+    text-decoration: none;
+    color: #ddd
+}
+ 
+#wrapper .btn-gnavi {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 24px;
+    z-index: 3;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
+}
+ 
+#wrapper .btn-gnavi span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #666;
+    border-radius: 10px;
+    -webkit-transition: all 400ms;
+    transition: all 400ms
+}
+ 
+#wrapper .btn-gnavi span:nth-child(1) {
+    top: 0;
+}
+ 
+#wrapper .btn-gnavi span:nth-child(2) {
+    top: 10px
+}
+ 
+#wrapper .btn-gnavi span:nth-child(3) {
+    top: 20px
+}
+ 
+#wrapper .btn-gnavi.open {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+ 
+#wrapper .btn-gnavi.open span {
+    background: #666
+}
+ 
+#wrapper .btn-gnavi.open span {
+    width: 24px;
+}
+#wrapper .contents section p {
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 6px #666
+}
+ 
+#wrapper .contents section:nth-child(odd) p {
+    left: 10%
+}
+ 
+#wrapper .contents section:nth-child(even) p {
+    right: 10%
+}
+}
+.content{
+  　margin:0;
+    padding-top: 80px;
+}
+.content p{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 535px) {
+  #headertext{
+  font-size: 13px;
+  }}
+  @media screen and (max-width: 480px) {
+  #headertext{
+  font-size: 10px;
+    }}
+@media screen and (max-width: 440px) {
+  #headertext{
+  display:none;
+  }
+}
+
+ertext{
+  font-size: 13px;
+  }}
+  @media screen and (max-width: 480px) {
+  #headertext{
+  font-size: 10px;
+    }}
+@media screen and (max-width: 440px) {
+  #headertext{
+  display:none;
+  }
+}
+
