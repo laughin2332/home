@@ -212,8 +212,8 @@ color: #ddd;
   font-size: 10px;
     }}
 @media screen and (max-width: 440px) {
-  #headertext{
+  .card-header{
   display:none;
   }
-}
+} 
 
